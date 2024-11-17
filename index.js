@@ -74,9 +74,6 @@ function displayPlaylists(playlists) {
     
             // Append the playlist div to the main container
             playlistsContainer.appendChild(playlistDiv);
-    
-
-        
 });
 }
 
