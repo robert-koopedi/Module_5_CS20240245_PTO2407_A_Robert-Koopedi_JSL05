@@ -12,6 +12,11 @@ const songs = [
     { title: "I'm Not in Love", artist: "10cc", genre: "Pop" },
     { title: "Fooled Around and Fell in Love", artist: "Elvin Bishop", genre: "Rock" },
     // Feel free to add even more songs
+    {title:"Peaceful", artist: "john smith", genre: "R&B" },
+    {title:"Heaven", artist: "", genre: "Rock" },
+    {title:"Calling My Phone", artist: "Lil Tjay", genre: "Pop" },
+    {title:"", artist: "", genre: "Rock" },
+    {title:"Get You The Moon", artist: "Kina", genre: "R&B" },
 ];
 
 
@@ -19,6 +24,7 @@ const songs = [
 const guardians = {
     "Star-Lord": "Rock",
     "Gamora": "Pop",
+
     // Add preferences for Drax, Rocket, and Groot
 };
 
