@@ -15,7 +15,7 @@ const songs = [
     {title:"Peaceful", artist: "john smith", genre: "R&B" },
     {title:"Heaven", artist: "", genre: "Rock" },
     {title:"Calling My Phone", artist: "Lil Tjay", genre: "Pop" },
-    {title:"", artist: "", genre: "Rock" },
+    {title:"Good Girls", artist: "Edwin Brown", genre: "Rock" },
     {title:"Get You The Moon", artist: "Kina", genre: "R&B" },
 ];
 
@@ -24,6 +24,9 @@ const songs = [
 const guardians = {
     "Star-Lord": "Rock",
     "Gamora": "Pop",
+    "Drax": "R&B",
+    "Rocket": "Rock",
+    "Groot": "Pop"
 
     // Add preferences for Drax, Rocket, and Groot
 };
