@@ -46,7 +46,7 @@ function generatePlaylist(guardians, songs) {
     });
 }
 
-// Generate playlists for each Guardian
+// Generate playlists for each Gurdian
 const personalisedPlaylists = generatePlaylist(guardians, songs);
 
 function displayPlaylists(playlists) {
@@ -67,6 +67,16 @@ function displayPlaylists(playlists) {
             songItem.innerText = `"${song.title}" by ${song.artist}`;
             songsList.appendChild(songItem);
         });
+
+            // Append the header and songs list to the playlist div
+            playlistDiv.appendChild(playlistHeader);
+            playlistDiv.appendChild(songsList);
+    
+            // Append the playlist div to the main container
+            playlistsContainer.appendChild(playlistDiv);
+    
+
+        
 });
 }
 
